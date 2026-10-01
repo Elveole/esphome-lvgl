@@ -92,7 +92,7 @@ sensor:
   #   lvgl.yaml → temperatures label (id: temperatures)
   # ===========================================================================
   - platform: homeassistant
-    entity_id: weather.forecast_home_assistant
+    entity_id: weather.forecast_home_assistant.temperature
     id: outdoor_temperature
     on_value:
       - lvgl.label.update:
